@@ -12,6 +12,9 @@ should be loaded into the field.
 ```Java
 package com.example;
 
+import com.sentinel.config.Config;
+import com.sentinel.config.EnvConfig;
+
 public class Configuration {
     @Config(name="INT_VAR", defaultValue="1")
     public static int intVar;
