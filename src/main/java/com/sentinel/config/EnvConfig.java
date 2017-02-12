@@ -1,18 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.sentinel.config;
 
 import java.lang.reflect.Field;
 
 /**
- *
- * @author atrimble
+ * Environment variable based configuration.
+ * 
+ * @author Andrew Trimble
  */
 public class EnvConfig {
 
+    /**
+     * Load the configuration from the environment.
+     * 
+     * @param clazz the class with the annotated configuration parameters
+     * @throws ConfigException in case there was an issue loading the configuration
+     */
     public static void load(Class<?> clazz) throws ConfigException {
         String error = "";
 
