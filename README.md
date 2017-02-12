@@ -1,7 +1,5 @@
 # envconfig
-Environment Variable Based Configuration for Java
-
-Inspired by the excellent Golang library github.com/kelseyhightower/envconfig
+Inspired by the excellent Golang library https://github.com/kelseyhightower/envconfig
 
 To use this facility, simply add annotations to desired configuration variables
 in a class. Then call the ```EnvConfig.load()``` method to statically set the
