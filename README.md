@@ -1,6 +1,8 @@
 # envconfig
 Environment Variable Based Configuration for Java
 
+[![Build Status](https://travis-ci.org/andy-trimble/envconfig.svg?branch=master)](https://travis-ci.org/andy-trimble/envconfig)
+
 Inspired by the excellent Golang library github.com/kelseyhightower/envconfig
 
 To use this facility, simply add annotations to desired configuration variables
